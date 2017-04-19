@@ -10,3 +10,7 @@ and a python script to fetch tweets from twitter and also perform sentimental an
 to get public opinion.
 The user entries are logged into a database, on which machine learning  may be applied
 to make recommendations and enhanced customized service to the user.
+
+
+Drive link to project PPT
+https://docs.google.com/presentation/d/1VODupFCU9TKqRt6vmSICZ0BW73pj7SW5_QZyDdQt1yY/edit?ts=58f73680
