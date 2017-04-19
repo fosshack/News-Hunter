@@ -1,0 +1,287 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml>
+<category><pattern> _ MANAGER _</pattern><template>The manager of viswajyothi college of engineering is father george oliapuram. </template></category>
+<category><pattern> _ PRINCIPAL </pattern><template><random><li>The PRINCIPAL of viswajyothi college of engineering is Dr JOSEPHKUNJU PAUL C</li><li>PRINCIPAL of VJCET is Dr. JOSEPHKUNJU PAUL</li></random></template></category>
+
+<category><pattern> IS THE * OF VISWAJYOTHI COLLEGE OF ENGINEERING _ FATHER GEORGE OLIAPURAM</pattern><template><set name="answer">Yes</set>. <srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+
+<category><pattern> WHO IS THE * OF VISWAJYOTHI COLLEGE OF ENGINEERING _ </pattern><template><srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+
+<category><pattern> WHO IS FATHER GEORGE OLIAPURAM</pattern><template><srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+
+<!--WITHOUT VISWAJYOTHI COLLEGE-->
+<category><pattern> IS THE * OF VJCET FATHER GEORGE OLIAPURAM</pattern><template><set name="answer">Yes</set>. <srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+
+<category><pattern> WHO IS THE * OF VJCET </pattern><template><srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+
+<category><pattern> WHO IS FATHER GEORGE OLIAPURAM</pattern><template><srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+<!--WITHOUT NAME OF COLLEGE-->
+<category><pattern> IS THE * FATHER GEORGE OLIAPURAM</pattern><template><set name="answer">Yes</set>. <srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+
+<category><pattern> WHO IS THE * </pattern><template><srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+
+<category><pattern> WHO IS FATHER GEORGE OLIAPURAM</pattern><template><srai><star/></srai><think><set name="it">THE MANAGER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set></think></template></category>
+<!--CONTACT NUMBER-->
+<category><pattern>NUMBER OF PRINCIPAL</pattern><template>Principals contact number is 0485226221. </template></category>
+<category><pattern> IS PRINCIPALS CONTACT NUMBER 0485226221</pattern><template><set name="answer">Yes</set>. <srai>NUMBER OF PRINCIPAL</srai><think><set name="it">PRINCIPALS CONTACT NUMBER</set></think></template></category>
+
+<category><pattern> WHAT IS PRINCIPALS CONTACT NUMBER </pattern><template><set name="answer"> 0485226221</set>. <srai>NUMBER OF PRINCIPAL</srai><think><set name="it">PRINCIPALS CONTACT NUMBER</set></think></template></category>
+
+<category><pattern> WHAT IS 0485226221</pattern><template><set name="answer"> principals contact number</set>. <srai>NUMBER OF PRINCIPAL</srai><think><set name="it">PRINCIPALS CONTACT NUMBER</set></think></template></category>
+<!--college number-->
+<category><pattern> _ COLLEGE CONTACT NUMBER </pattern><template>The contact number of viswajyothi college of engineering is 04852262211 and 04852262255. </template></category>
+
+<category><pattern> IS THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING 04852262211</pattern><template><set name="answer">Yes</set>. <srai> _ COLLEGE CONTACT NUMBER </srai><think><set name="it">THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set><set name="they">04852262211</set></think></template></category>
+
+<category><pattern> IS THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING 04852262255</pattern><template><set name="answer">Yes</set>. <srai> _ COLLEGE CONTACT NUMBER </srai><think><set name="it">THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set><set name="they">04852262255</set></think></template></category>
+
+<category><pattern> WHAT IS THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING </pattern><template><set name="answer"> 04852262211 and 04852262255</set>. <srai> _ COLLEGE CONTACT NUMBER </srai><think><set name="it">THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set><set name="they">04852262211 AND 04852262255</set></think></template></category>
+
+<category><pattern> WHAT IS 04852262211</pattern><template><set name="answer"> the contact number of viswajyothi college of engineering</set>. <srai> _ COLLEGE CONTACT NUMBER </srai><think><set name="it">THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set><set name="they">04852262211</set></think></template></category>
+
+<category><pattern> WHAT IS 04852262255</pattern><template><set name="answer"> the contact number of viswajyothi college of engineering</set>. <srai> _ COLLEGE CONTACT NUMBER </srai><think><set name="it">THE CONTACT NUMBER OF VISWAJYOTHI COLLEGE OF ENGINEERING</set><set name="they">04852262255</set></think></template></category>
+<!--Address-->
+<category><pattern> _ COLLEGE ADDRESS </pattern><template>The address is viswajyothi college of engineering and technology vazhakulam p o muvattupuzha ernakulam district kerala 686670. </template></category>
+
+<category><pattern> IS THE ADDRESS VISWAJYOTHI COLLEGE OF ENGINEERING AND TECHNOLOGY VAZHAKULAM P O MUVATTUPUZHA ERNAKULAM DISTRICT KERALA 686670</pattern><template><set name="answer">Yes</set>. <srai>COLLEGE ADDRESS</srai><think><set name="it">THE ADDRESS</set><set name="they">VISWAJYOTHI COLLEGE OF ENGINEERING AND TECHNOLOGY VAZHAKULAM P O MUVATTUPUZHA ERNAKULAM DISTRICT KERALA 686670</set></think></template></category>
+
+<category><pattern> WHAT IS THE ADDRESS </pattern><template><set name="answer"> viswajyothi college of engineering and technology vazhakulam p o muvattupuzha ernakulam district kerala 686670</set>. <srai>COLLEGE ADDRESS</srai><think><set name="it">THE ADDRESS</set><set name="they">VISWAJYOTHI COLLEGE OF ENGINEERING AND TECHNOLOGY VAZHAKULAM P O MUVATTUPUZHA ERNAKULAM DISTRICT KERALA 686670</set></think></template></category>
+
+<category><pattern> WHAT IS VISWAJYOTHI COLLEGE OF ENGINEERING AND TECHNOLOGY VAZHAKULAM P O MUVATTUPUZHA ERNAKULAM DISTRICT KERALA 686670</pattern><template><set name="answer"> the address</set>. <srai>COLLEGE ADDRESS</srai><think><set name="it">THE ADDRESS</set><set name="they">VISWAJYOTHI COLLEGE OF ENGINEERING AND TECHNOLOGY VAZHAKULAM P O MUVATTUPUZHA ERNAKULAM DISTRICT KERALA 686670</set></think></template></category>
+<!--establishment-->
+<category><pattern> _ COLLEGE BUILD </pattern><template>2001 is the year of establishment. </template></category>
+
+<category><pattern> IS 2001 THE YEAR OF ESTABLISHMENT</pattern><template><set name="answer">Yes</set>. <srai> _ COLLEGE BUILD </srai><think><set name="it">2001</set></think></template></category>
+
+<category><pattern> WHAT IS 2001 </pattern><template><set name="answer"> the year of establishment</set>. <srai> _ COLLEGE BUILD </srai><think><set name="it">2001</set></think></template></category>
+
+<category><pattern> WHAT IS THE YEAR OF ESTABLISHMENT</pattern><template><set name="answer"> 2001</set>. <srai> _ COLLEGE BUILD </srai><think><set name="it">2001</set></think></template></category>
+
+<!--new-->
+   <category><pattern> _ FAX NUMBER _ </pattern><template>The fax number of VJCET is 04852262211</template></category>
+   <category><pattern> FAX NUMBER _ </pattern><template>The fax number of VJCET is 04852262211</template></category>
+   <category><pattern>_ FAX NUMBER </pattern><template>The fax number of VJCET is 04852262211</template></category>
+   <category><pattern> FAX NUMBER </pattern><template>The fax number of VJCET is 04852262211</template></category>
+
+   <category><pattern> mail id </pattern><template>The email id  of VJCET is vjcet@vjcet.org</template></category>
+
+   <category><pattern> _ website </pattern><template>The website URL is www.vjcet.ac.in</template></category>
+
+   <category><pattern> _ railway station * </pattern><template>The railway station which is nearer to VJCET is Aluva and 50 km away.</template></category>
+
+   <category><pattern>RESULTS</pattern><template> Tell me which semester <set name = "topic">result</set> you want to know
+   S1S2
+   S3
+   S4
+   S5
+   S6
+   S7</template></category>
+
+   <category><pattern> _ RESULT </pattern><template><srai>RESULTS</srai></template></category>
+   <category><pattern> _ RESULTS </pattern><template><srai>RESULTS</srai></template></category>
+
+   <category><pattern> _ EAXM RESULT_ </pattern><template><srai>RESULTS</srai></template></category>
+
+   <category><pattern> EXAM RESULT_ </pattern><template><srai>RESULTS</srai></template></category>
+   
+   <category><pattern> _ EXAM RESULT </pattern><template><srai>RESULTS</srai></template></category>
+   
+   <category><pattern> EXAM RESULT </pattern><template><srai>RESULTS</srai></template></category>
+
+   <topic name = "result">
+   	<category><pattern>S1S2</pattern><template>s1</template></category>
+    <category><pattern>S3</pattern><template>s3</template></category>
+    <category><pattern>S4</pattern><template>s4</template></category>
+    <category><pattern>S5</pattern><template>s5</template></category>
+   	<category><pattern>S6</pattern><template>s6</template></category>
+    <category><pattern>S7</pattern><template>s7</template></category>
+    <category><pattern> * </pattern><template>One at a time in a generic way. <srai>RESULTS</srai></template></category>
+   </topic>
+
+   <category><pattern>land area</pattern> <template>The land area of viswajyothi college is 26 acres</template></category>
+
+   <category><pattern> _ land area_ </pattern><template><srai>land area</srai></template></category>
+
+   <category><pattern> land area_ </pattern><template><srai>land area</srai></template></category>
+   
+   <category><pattern> _ land area </pattern><template><srai>land area</srai></template></category>
+   
+   <category><pattern> land area </pattern><template><srai>land area</srai></template></category>
+
+   <category><pattern> built up area </pattern> <template>The built up area of the college about is 57675.00 Sq.m</template></category>
+
+   <category><pattern> _ built up area_ </pattern><template><srai>built up area</srai></template></category>
+
+   <category><pattern> built up area_ </pattern><template><srai>built up area</srai></template></category>
+   
+   <category><pattern> _ built up area </pattern><template><srai>built up area</srai></template></category>
+   
+   <category><pattern> built up area </pattern><template><srai>built up area</srai></template></category>
+
+   <category><pattern>courses offer</pattern> <template>The various courses offered are Civil Engineering, Computer Science and Engineering, Electronics and Communication, Electrical and Electronics, Information Technology, Mechanical Engineering </template></category>
+
+   <category><pattern> _ courses offer_ </pattern><template><srai>courses offer</srai></template></category>
+
+   <category><pattern> courses offer_ </pattern><template><srai>courses offer</srai></template></category>
+   
+   <category><pattern> _ courses offer </pattern><template><srai>courses offer</srai></template></category>
+   
+   <category><pattern> courses offer </pattern><template><srai>courses offer</srai></template></category>
+
+   <category><pattern>course code</pattern><template></template>Name the dept to get the <set name = "topic">code</set></category>
+
+   <category><pattern> _ course code_ </pattern><template><srai>course code</srai></template></category>
+
+   <category><pattern> course code_ </pattern><template><srai>course code</srai></template></category>
+   
+   <category><pattern> _ course code </pattern><template><srai>course code</srai></template></category>
+   
+   <category><pattern> course code </pattern><template><srai>course code</srai></template></category>
+
+   <topic name = "code">
+   	<category><pattern>civil</pattern><template>CE</template></category>
+   	<category><pattern>_civil</pattern><template>CE</template></category>
+   	<category><pattern>civil_</pattern><template>CE</template></category>
+    <category><pattern>computer</pattern><template>CS</template></category>
+    <category><pattern>_computer</pattern><template>CS</template></category>
+    <category><pattern>computer_</pattern><template>CS</template></category>
+    <category><pattern>mechanical</pattern><template>ME</template></category>
+    <category><pattern>_mechanical</pattern><template>ME</template></category>
+    <category><pattern>mechanical_</pattern><template>ME</template></category>
+    <category><pattern>electronics</pattern><template>EC</template></category>
+    <category><pattern>_electronics</pattern><template>EC</template></category>
+    <category><pattern>electronics_</pattern><template>EC</template></category>
+   	<category><pattern>electrical</pattern><template>EEE</template></category>
+   	<category><pattern>_electrical</pattern><template>EEE</template></category>
+   	<category><pattern>electrical_</pattern><template>EEE</template></category>
+    <category><pattern>information</pattern><template>IT</template></category>
+    <category><pattern>_information</pattern><template>IT</template></category>
+    <category><pattern>information_</pattern><template>IT</template></category>
+    <category><pattern> * </pattern><template><srai>course code</srai></template></category>
+   </topic>
+
+   <category><pattern> approved intake _ Civil Engineering ?</pattern> <template>The approved intake of students in Civil Engineering is 120</template></category>
+
+   <category><pattern> _civil _ affiliation_</pattern> <template>The civil engineering course in viswajyothi college has got affiliation from the university</template></category>
+
+   <category><pattern> approved intake *</pattern><template>The approved intake <star/> is 120</template></category>
+   <category><pattern> approved intake _ it</pattern><template>The approved intake for IT course in vjcet is 60</template></category>
+
+   <category><pattern> When did the Computer Science and Engineering course started in viswajyothi college of engineering </pattern> <template>In 2001 , Computer Science and Engineering course was started in viswajyothi college of engineering</template></category>
+
+   <category><pattern> Whether the Computer Science and Engineering course in viswajyothi college is accredited </pattern> <template>The Computer Science and Engineering course in viswajyothi college of engineering  has got  accredition and is valid upto 2013</template></category>
+
+   <category><pattern> Whether the Computer Science and Engineering course in viswajyothi college has got affiliation from the university </pattern> <template>YES</template></category>
+     
+   <category><pattern> When did the Electronics and Communication course started in viswajyothi college of engineering </pattern> <template>In 2001 , Electronics and Communication course was started in viswajyothi college of engineering</template></category>
+
+   <category><pattern> Whether the Electronics and Communication course in viswajyothi college is accredited </pattern> <template>The Electronics and Communication course in viswajyothi college of engineering  has got  accredition and is valid upto 2013</template></category>
+
+   <category><pattern> Whether the Electronics and Communication course in viswajyothi college has got affiliation from the university </pattern> <template>YES</template></category>
+
+   <category><pattern> When did the Electrical and Electronics course started in viswajyothi college of engineering </pattern> <template>In 2004 , 	Electrical and Electronics course was started in viswajyothi college of engineering</template></category>
+
+   <category><pattern> Whether the Electrical and Electronics course in viswajyothi college is accredited </pattern> <template>The Electrical and Electronics course in viswajyothi college of engineering  has no accredition</template></category>
+
+   <category><pattern> Whether the Electrical and Electronics course in viswajyothi college has got affiliation from the university </pattern> <template>YES</template></category>
+ 
+   <category><pattern> When did the Electrical and Electronics course started in viswajyothi college of engineering </pattern> <template>In 2004 , 	Electrical and Electronics course was started in viswajyothi college of engineering</template></category>
+
+   <category><pattern> Whether the Electrical and Electronics course in viswajyothi college is accredited </pattern> <template>The Electrical and Electronics course in viswajyothi college of engineering  has no accredition</template></category>
+
+   <category><pattern> Whether the Electrical and Electronics course in viswajyothi college has got affiliation from the university </pattern> <template>YES</template></category>
+
+   <category><pattern> When did the information technology course started in viswajyothi college of engineering </pattern> <template>In 2001, Information technology course was started in viswajyothi college of engineering</template></category>
+
+   <category><pattern> Whether the information technology course in viswajyothi college is accredited </pattern> <template>The information technology course in viswajyothi college of engineering  has no accredition</template></category>
+
+   <category><pattern> Whether the information technology course in viswajyothi college has got affiliation from the university </pattern> <template>YES</template></category>
+
+   <category><pattern> When did the Mechanical Engineering course started in viswajyothi college of engineering </pattern> <template>In 2002, Mechanical Engineering course was started in viswajyothi college of engineering</template></category>
+
+   <category><pattern> Whether the Mechanical Engineering course in viswajyothi college is accredited </pattern> <template>The Mechanical Engineering course in viswajyothi college of engineering  has no accredition</template></category>
+
+   <category><pattern> Whether the Mechanical Engineering course in viswajyothi college has got affiliation from the university</pattern> <template>YES</template></category>
+
+   <category><pattern> Whether hostel facility is available for boys </pattern> <template>YES</template></category>
+
+   <category><pattern> _ Warden of boys hostel</pattern> <template>The Rev.Fr. Mathew Mundackal is the warden of boys hostel</template></category>
+
+   <category><pattern> _ contact number of boys hostel warden </pattern> <template>The contact number of boys hostel warden is 04852261990</template></category>
+
+   <category><pattern> accomodation capacity of boys hostel </pattern> <template>The accomodation capacity of boys hostel is 325</template></category>
+
+   <category><pattern> _ type of mess in boys hostel </pattern> <template>The type of mess is vegetarian and non vegetarian</template></category>
+
+   <category><pattern> _ mess bill of boys hostel </pattern> <template>The mess bill of boys hostel is Rs 1800</template></category>
+
+   <category><pattern> _ room rent of boys hostel </pattern> <template>The room rent of boys hostel is Rs 1500</template></category>
+
+   <category><pattern> _ caution deposit of boys hostel </pattern> <template>The caution deposit  of boys hostel is Rs 2000</template></category>
+
+   <category><pattern> admission fee of boys hostel </pattern> <template>The admission fee of boys hostel is Rs 250</template></category>
+      
+   <category><pattern> Whether hostel facility is available for girls </pattern> <template>YES</template></category>
+
+   <category><pattern> Who is the Warden of girls hostel </pattern><template>The Sr Gracia CMC is the warden of boys hostel</template></category>
+
+   <category><pattern> _ contact number of girls hostel warden </pattern> <template>The contact number of girls hostel warden is 04852263150</template></category>
+
+   <category><pattern> _accomodation capacity of girls hostel </pattern> <template>The accomodation capacity of girls hostel is 450</template></category>
+
+   <category><pattern> _type of mess in girls hostel </pattern> <template>The type of mess is vegetarian and non vegetarian</template></category>
+
+   <category><pattern> _mess bill of girls hostel </pattern> <template>The mess bill of girls hostel is Rs 1800</template></category>
+
+   <category><pattern> _room rent of girls hostel </pattern> <template>The room rent of girls hostel is Rs 1500</template></category>
+
+   <category><pattern> _caution deposit of girls hostel </pattern> <template>The caution deposit  of girls hostel is Rs 2000</template></category>
+
+   <category><pattern> _admission fee of girls hostel </pattern> <template>The admission fee of girls hostel is Rs 250</template></category>
+
+   <category><pattern> Whether library facility is available </pattern> <template>YES</template></category>
+
+   <category><pattern> Whether campus placement is available for all UG course</pattern> <template>YES</template></category>
+
+   <category><pattern> Whether internet facility is available </pattern> <template>YES</template></category>
+
+   <category><pattern> Whether canteen facility is available </pattern> <template>YES</template></category>
+
+   <category><pattern> Whether sports club is active </pattern> <template>YES</template></category>
+
+   <category><pattern> Whether NSS club is active </pattern> <template>YES</template></category>
+
+   <category><pattern> _total no of seats available for an academic year </pattern> <template>The total number of seat available is 660</template></category>
+
+   <category><pattern> Whether government and management fees are same </pattern> <template>YES</template></category>
+
+   <category><pattern> How much is  the government fees </pattern> <template>The govt fees is Rs 75000</template></category>
+
+   <category><pattern> How much is the management fees </pattern> <template>The management fees is Rs 75000</template></category>
+
+   <category><pattern> How much is  the admission fees </pattern> <template>The admission fees is Rs 500</template></category>
+
+   <category><pattern> How much is the caution deposit </pattern> <template>The caution deposit is Rs 1000</template></category>
+
+   <category><pattern> Whether the Interest Free Refundable Deposit is applicable only for CE and ME </pattern> <template>YES</template></category>
+
+   <category><pattern> How much is  the Interest Free Refundable Deposit </pattern> <template>The Interest Free Refundable Deposit is Rs 100000</template></category>
+
+   <category><pattern> How much is the Fee for Value Added Courses </pattern> <template>The Fee for Value Added Courses is  Rs 7800</template></category>
+
+   <category><pattern> How much is  the  Proportionate Fee _ </pattern> <template>The Proportionate Fee for University/Statutory Bodies is Rs 2700</template></category>
+      
+   <category><pattern> What is the name of management </pattern> <template>Diocesian Technical Education Trust Kothamangalam</template></category>
+
+   <category><pattern> When did the management was established </pattern> <template>The management was established in 1999</template></category>
+
+   <category><pattern> What is the contact details of management </pattern> <template>The contact number of management is 04852862236,04852862237</template></category>
+
+   <category><pattern> What is the address of management </pattern> <template>Bishops House, Kothamangalam, Ernakulam District, Kerala, 686691</template></category>
+
+   <category><pattern> What are the outstanding achievements during the last two years?</pattern> <template> The major achievements are :
+   Consistent academic record with University Ranks. 
+   The College Secured FIRST Position in MG University in Seventh Semester Result announced in April 2016.
+   19 University ranks since its inception.First rank for IT in consecutive years from 2009 to 2011.</template></category>
+
+</aiml>

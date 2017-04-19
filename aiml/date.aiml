@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>_ DAY _</pattern>
+<template>Today is <date format="%A" jformat="EEEEEEEEEE"/></template>
+</category>
+<category><pattern>_ YEAR _</pattern>
+<template>This is <date format="%Y" jformat="YYYY"/></template>
+</category>
+<category><pattern>_ MONTH_</pattern>
+<template>This is <date format="%B" jformat="MMMMMMMMM"/></template>
+</category>
+<category><pattern>_TIME_</pattern>
+<template>The time is <date format="%I:%M %p" jformat="h:mm a"/></template>
+</category>
+<category><pattern>_DATE_</pattern>
+<template>Today is <date format="%B %d, %Y" jformat="MMMMMMMMM dd, YYYY"/></template>
+</category>
+<category><pattern>DATE AND TIME</pattern>
+<template>The date and time is <date/></template>
+</category>
+<category><pattern>HOW MANY DAYS UNTIL CHRISTMAS</pattern>
+<template><interval>
+<jformat>MMMMMMMMM dd</jformat>
+<style>days</style>
+<from><date jformat="MMMMMMMMM dd"/></from>
+<to>December 25</to>
+</interval>
+days until Christmas.</template>
+</category>
+</aiml>

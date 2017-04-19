@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+<category><pattern>VERSION</pattern>
+<template>JENNIFER AIML Bot version 0.0.1</template>
+</category>
+<category><pattern>BUILD</pattern>
+<template>DECEMBER 27, 12:00:00 PM 2017</template>
+</category>
+<category><pattern>DELEVLOPMENT ENVIRONMENT</pattern>
+<template>Program AB 0.0.4.2 beta</template>
+</category>
+</aiml>
