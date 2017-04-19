@@ -197,7 +197,7 @@ define('DB','chatbot');
                                                 </div>
                                                 <div class="conversation-text">
                                                     <div class="ctext-wrap">
-                                                        <i>Bot</i>
+                                                        <i>Hunter</i>
                                                         <p>
                                                 <input type="hidden" name="bot_id" id="bot_id" value="<?php echo $bot_id; ?>"/>
                                                 <?php echo $row['response']; ?>

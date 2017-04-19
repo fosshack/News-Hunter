@@ -24,7 +24,7 @@ $show = (isset ($get_vars['showing'])) ? $get_vars['showing'] : "last 20";
 $show_this = showThis($show);
 $convo = (isset ($get_vars['id'])) ? getuserConvo($get_vars['id'], $show) : "Please select a conversation from the side bar.";
 $user_list = (isset ($get_vars['id'])) ? getUserList($get_vars['id'], $show) : getUserList($_SESSION['poadmin']['bot_id'], $show);
-$bot_name = (isset ($_SESSION['poadmin']['bot_name'])) ? $_SESSION['poadmin']['bot_name'] : 'unknown';
+$bot_name = (isset ($_SESSION['poadmin']['bot_name'])) ? $_SESSION['poadmin']['bot_name'] : 'Hunter';
 $upperScripts = $template->getSection('UpperScripts');
 
 $topNav = $template->getSection('TopNav');

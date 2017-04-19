@@ -13,7 +13,7 @@
 # Build page sections
 # ordered here in the order that the page is constructed
 $post_vars = filter_input_array(INPUT_POST);
-$bot_name = (isset ($_SESSION['poadmin']['bot_name'])) ? $_SESSION['poadmin']['bot_name'] : 'unknown';
+$bot_name = (isset ($_SESSION['poadmin']['bot_name'])) ? $_SESSION['poadmin']['bot_name'] : 'Hunter';
 $func = (isset ($post_vars['func'])) ? $post_vars['func'] : 'getBot';
 $topNav = $template->getSection('TopNav');
 $leftNav = $template->getSection('LeftNav');
